@@ -1,23 +1,24 @@
 # Windows-API-with-Python
 Hacking the Windows API with Python - Real Ethical Hacking
-## Windows Internals Overview
-### Processes and Threads :- 
-* Presently running programs
-* contains at least 1 thread
-* process has its own virtual memory space
-* thread runs inside of a process
-* OS allocates processing time to each threads 
-* Executes code based on the PE/EXE file ran
-* Threads can create more threads and run different code
-    
-    [More in Process and threads](https://docs.microsoft.com/en-us/windows/win32/procthread/processes-and-threads)
-
-### Token
-* Security context/Access Token
-* Used to deal with privileges or access rightd for a process or thread
-* Containss some of the following:-
-    * Privileges
-    * User Groups
-    * Types of Token
-    * Defaults Access Control Lists(DACL's)
-    
+## Setting Up
+### Installing Dependecies and tools in windows
+## Windows API Overview
+### Windows Internals
+### Windows API Call
+## API Basics & Hooking into a Windows Process
+* Windows API Style
+* Some basics of Python
+* Gaining a handle to a Windows Process
+* Project - ProcKiller
+## Advanced Windows API Calls
+* Windows deep internal structures
+* Spawning a Windows Process
+* Making of SpawnProc using Python
+* More of API Calls Undocumented 
+## Abusing Windows Tokens
+* About Token Privilegs
+* Process Access Token Opening
+* Process Token Privileges checking
+* Process Token Privileges Modification
+* Impersonation Tool using Python
+## Compiling Python to PEEXE
