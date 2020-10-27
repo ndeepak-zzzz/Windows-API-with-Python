@@ -1,6 +1,6 @@
 # Windows-API-with-Python
 Hacking the Windows API with Python - Real Ethical Hacking
-## [Setting Up](https://github.com/Nagarkotideepak/Windows-API-with-Python/tree/main/Setting%2v)
+## [Setting Up](https://github.com/Nagarkotideepak/Windows-API-with-Python/tree/main/00Setting%20Up)
 * Installing Dependecies and tools in windows
 ## [Windows API Overview](https://github.com/Nagarkotideepak/Windows-API-with-Python/tree/main/01Windows%20API%20Overview)
 * Windows Internals
